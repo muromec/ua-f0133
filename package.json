@@ -1,0 +1,23 @@
+{
+  "name": "ua-f0133",
+  "version": "1.0.0",
+  "description": "Generate income tax declaration for self-employed person (Ukraine)",
+  "main": "lib.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- --recursive tests --reporter spec",
+    "testwatch": "mocha --recursive tests/ --watch --reporter spec"
+  },
+  "keywords": [
+    "tax",
+    "ua",
+    "фоп",
+    "єдиний податок"
+  ],
+  "author": "Illya Petrov",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
+  }
+}
